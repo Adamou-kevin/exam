@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: dimgray;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.salem{
+    color: #da491c;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 40px;
+    justify-content: center;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #da491c;
+    transition: 0,5s;
+}
+
+nav .work a{
+    color: #da491c;
+}
+
+.love{
+    color: #da491c;
+}
+
+.one{
+   text-align: center;
+   padding: 40px;
+   color: white;
+
+}
+
+.ligne{
+    border: 1px solid  #da491c ;
+    position: relative;
+    top: 20px;
+    margin-left: 700px;
+    margin-right: 700px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.texte{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.aut{
+    text-align: center;
+    margin-left: -840px;
+    color: #da491c;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.im{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 90px;
+            width: 300px;
+            height: 200px;
+            margin: auto;
+            text-align: center;
+}
+
+.let{
+    margin-left: 250px;
+    font-size: 20px;
+}
+
+.case{
+    margin-left: 222px;
+    padding: 25px;
+}
+
+.butt{
+    color:white;
+    background-color: #da491c;
+    border: 10px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-left: 250px;
+    
+}
